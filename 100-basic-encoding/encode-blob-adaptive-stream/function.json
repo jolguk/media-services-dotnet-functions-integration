@@ -4,14 +4,14 @@
       "name": "inputBlob",
       "type": "blobTrigger",
       "direction": "in",
-      "path": "input/small.mp4",
+      "path": "input/{fileName}.{fileExtension}",
       "connection": "StorageConnection"
     },
     {
       "name": "outputBlob",
       "type": "blob",
-      "direction": "InOut",
-      "path": "output/small.mp4",
+      "direction": "out",
+      "path": "output/{fileName}-Output.mp4",
       "connection": "StorageConnection"
     }
   ],
