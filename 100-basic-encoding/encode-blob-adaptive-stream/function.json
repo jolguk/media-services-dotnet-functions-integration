@@ -4,14 +4,14 @@
       "name": "inputBlob",
       "type": "blobTrigger",
       "direction": "in",
-      "path": "https://jostorageaccountforams.blob.core.windows.net/input/Ignite-short_960x540_AACAudio_2217.mp4",
+      "path": "input/small.mp4",
       "connection": "StorageConnection"
     },
     {
       "name": "outputBlob",
       "type": "blob",
       "direction": "InOut",
-      "path": "https://jostorageaccountforams.blob.core.windows.net/output/Ignite-short_960x540_AACAudio_2217.mp4",
+      "path": "output/small.mp4",
       "connection": "StorageConnection"
     }
   ],
